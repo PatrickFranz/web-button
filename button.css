@@ -16,9 +16,13 @@ h3{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
+    user-select: none;
 }
 
-.button:hover{ background-color: #FFB96E; }
+.button:hover{ 
+    background-color: #FFB96E;
+    cursor: pointer;
+ }
 .button:active{ background-color: #FFE391; }
 .button:focus{ outline:none; }
 
